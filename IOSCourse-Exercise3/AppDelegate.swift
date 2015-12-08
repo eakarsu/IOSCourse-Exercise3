@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  IOSCourse-Exercise3
+//  NextTryExcerse
 //
 //  Created by Erol Akarsu on 08/12/2015.
 //  Copyright © 2015 Erol Akarsu. All rights reserved.
