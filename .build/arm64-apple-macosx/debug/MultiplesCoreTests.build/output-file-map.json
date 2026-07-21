@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/primary.swiftdeps"
+  },
+  "/Volumes/external/projects/IOSCourse-Exercise3/Tests/MultiplesCoreTests/MultiplesGameTests.swift": {
+    "dependencies": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/MultiplesGameTests.d",
+    "object": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/MultiplesGameTests.swift.o",
+    "swiftmodule": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/MultiplesGameTests~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/MultiplesGameTests.swiftdeps",
+    "diagnostics": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/MultiplesGameTests.dia"
+  }
+}

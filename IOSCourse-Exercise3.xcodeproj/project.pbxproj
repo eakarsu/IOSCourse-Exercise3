@@ -12,7 +12,21 @@
 		1C9E9C271C1734F900DDFFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E9C251C1734F900DDFFF8 /* Main.storyboard */; };
 		1C9E9C291C1734F900DDFFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E9C281C1734F900DDFFF8 /* Assets.xcassets */; };
 		1C9E9C2C1C1734F900DDFFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9E9C2A1C1734F900DDFFF8 /* LaunchScreen.storyboard */; };
+		C30000000000000000000001 /* MultiplesGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30000000000000000000002 /* MultiplesGame.swift */; };
+		C30000000000000000000003 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C30000000000000000000004 /* PrivacyInfo.xcprivacy */; };
+		C30000000000000000000005 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C30000000000000000000006 /* Localizable.strings */; };
+		C30000000000000000000007 /* MultiplesJourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30000000000000000000008 /* MultiplesJourneyUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C30000000000000000000012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C9E9C161C1734F900DDFFF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C9E9C1D1C1734F900DDFFF8;
+			remoteInfo = "IOSCourse-Exercise3";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1C9E9C1E1C1734F900DDFFF8 /* IOSCourse-Exercise3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOSCourse-Exercise3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +36,22 @@
 		1C9E9C281C1734F900DDFFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C9E9C2B1C1734F900DDFFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C9E9C2D1C1734F900DDFFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30000000000000000000002 /* MultiplesGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MultiplesGame.swift; path = ../Sources/MultiplesCore/MultiplesGame.swift; sourceTree = "<group>"; };
+		C30000000000000000000004 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C30000000000000000000006 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C30000000000000000000008 /* MultiplesJourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplesJourneyUITests.swift; sourceTree = "<group>"; };
+		C30000000000000000000009 /* IOSCourse-Exercise3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOSCourse-Exercise3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1C9E9C1B1C1734F900DDFFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3000000000000000000000B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9E9C201C1734F900DDFFF8 /* IOSCourse-Exercise3 */,
+				C3000000000000000000000A /* IOSCourse-Exercise3UITests */,
 				1C9E9C1F1C1734F900DDFFF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				1C9E9C1E1C1734F900DDFFF8 /* IOSCourse-Exercise3.app */,
+				C30000000000000000000009 /* IOSCourse-Exercise3UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +82,9 @@
 		1C9E9C201C1734F900DDFFF8 /* IOSCourse-Exercise3 */ = {
 			isa = PBXGroup;
 			children = (
+				C30000000000000000000002 /* MultiplesGame.swift */,
+				C30000000000000000000004 /* PrivacyInfo.xcprivacy */,
+				C30000000000000000000006 /* Localizable.strings */,
 				1C9E9C211C1734F900DDFFF8 /* AppDelegate.swift */,
 				1C9E9C231C1734F900DDFFF8 /* ViewController.swift */,
 				1C9E9C251C1734F900DDFFF8 /* Main.storyboard */,
@@ -62,6 +93,14 @@
 				1C9E9C2D1C1734F900DDFFF8 /* Info.plist */,
 			);
 			path = "IOSCourse-Exercise3";
+			sourceTree = "<group>";
+		};
+		C3000000000000000000000A /* IOSCourse-Exercise3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C30000000000000000000008 /* MultiplesJourneyUITests.swift */,
+			);
+			path = "IOSCourse-Exercise3UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +123,24 @@
 			productReference = 1C9E9C1E1C1734F900DDFFF8 /* IOSCourse-Exercise3.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C3000000000000000000000E /* IOSCourse-Exercise3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30000000000000000000011 /* Build configuration list for PBXNativeTarget "IOSCourse-Exercise3UITests" */;
+			buildPhases = (
+				C3000000000000000000000C /* Sources */,
+				C3000000000000000000000B /* Frameworks */,
+				C3000000000000000000000D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C30000000000000000000013 /* PBXTargetDependency */,
+			);
+			name = "IOSCourse-Exercise3UITests";
+			productName = "IOSCourse-Exercise3UITests";
+			productReference = C30000000000000000000009 /* IOSCourse-Exercise3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +154,10 @@
 					1C9E9C1D1C1734F900DDFFF8 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = 84828T5C37;
+					};
+					C3000000000000000000000E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1C9E9C1D1C1734F900DDFFF8;
 					};
 				};
 			};
@@ -114,6 +175,7 @@
 			projectRoot = "";
 			targets = (
 				1C9E9C1D1C1734F900DDFFF8 /* IOSCourse-Exercise3 */,
+				C3000000000000000000000E /* IOSCourse-Exercise3UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -123,9 +185,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30000000000000000000003 /* PrivacyInfo.xcprivacy in Resources */,
+				C30000000000000000000005 /* Localizable.strings in Resources */,
 				1C9E9C2C1C1734F900DDFFF8 /* LaunchScreen.storyboard in Resources */,
 				1C9E9C291C1734F900DDFFF8 /* Assets.xcassets in Resources */,
 				1C9E9C271C1734F900DDFFF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3000000000000000000000D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,12 +207,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30000000000000000000001 /* MultiplesGame.swift in Sources */,
 				1C9E9C241C1734F900DDFFF8 /* ViewController.swift in Sources */,
 				1C9E9C221C1734F900DDFFF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C3000000000000000000000C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30000000000000000000007 /* MultiplesJourneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C30000000000000000000013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C9E9C1D1C1734F900DDFFF8 /* IOSCourse-Exercise3 */;
+			targetProxy = C30000000000000000000012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1C9E9C251C1734F900DDFFF8 /* Main.storyboard */ = {
@@ -199,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -237,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -248,10 +336,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = "IOSCourse-Exercise3/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.norshin.IOSCourse-Exercise3";
+					IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+					LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+					MARKETING_VERSION = 1.0.0;
+					PRODUCT_BUNDLE_IDENTIFIER = "com.norshin.IOSCourse-Exercise3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -259,10 +352,47 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = "IOSCourse-Exercise3/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.norshin.IOSCourse-Exercise3";
+					IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+					LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+					MARKETING_VERSION = 1.0.0;
+					PRODUCT_BUNDLE_IDENTIFIER = "com.norshin.IOSCourse-Exercise3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C3000000000000000000000F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.norshin.IOSCourse-Exercise3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOSCourse-Exercise3";
+			};
+			name = Debug;
+		};
+		C30000000000000000000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.norshin.IOSCourse-Exercise3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOSCourse-Exercise3";
 			};
 			name = Release;
 		};
@@ -285,6 +415,15 @@
 				1C9E9C321C1734F900DDFFF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		C30000000000000000000011 /* Build configuration list for PBXNativeTarget "IOSCourse-Exercise3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3000000000000000000000F /* Debug */,
+				C30000000000000000000010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

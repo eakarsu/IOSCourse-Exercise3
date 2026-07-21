@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/primary.swiftdeps"
+  },
+  "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.derived/runner.swift": {
+    "dependencies": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/runner.d",
+    "object": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/runner.dia"
+  }
+}

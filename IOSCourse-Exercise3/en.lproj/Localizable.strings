@@ -1,0 +1,13 @@
+"input.label" = "Multiplier";
+"input.hint" = "Enter a whole number from 1 through 1000. The game works offline.";
+"button.start" = "Start";
+"button.add" = "Add multiple";
+"app.title" = "Multiples";
+"status.label" = "Game status";
+"status.empty" = "Enter a multiplier to begin.";
+"status.progress" = "%d + %d · step %d of 5";
+"status.completed" = "Complete: %d";
+"error.emptyInput" = "Enter a multiplier first.";
+"error.notAnInteger" = "Use a whole number.";
+"error.outsideAllowedRange" = "Use a number from 1 through 1000.";
+"error.noActiveSession" = "Start a game before adding.";

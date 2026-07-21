@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/primary.swiftdeps"
+  },
+  "/Volumes/external/projects/IOSCourse-Exercise3/Sources/MultiplesCore/MultiplesGame.swift": {
+    "dependencies": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/MultiplesGame.d",
+    "object": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/MultiplesGame.swift.o",
+    "swiftmodule": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/MultiplesGame~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/MultiplesGame.swiftdeps",
+    "diagnostics": "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/MultiplesGame.dia"
+  }
+}

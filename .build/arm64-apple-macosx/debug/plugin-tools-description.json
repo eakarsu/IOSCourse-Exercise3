@@ -1,0 +1,602 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.xctest/Contents/MacOS/MultiplesCorePackageTests",
+      "packagePath" : "/Volumes/external/projects/IOSCourse-Exercise3",
+      "productName" : "MultiplesCorePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MultiplesCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/sources",
+      "importPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/Sources/MultiplesCore/MultiplesGame.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MultiplesCore",
+      "moduleOutputPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules/MultiplesCore.swiftmodule",
+      "objects" : [
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/MultiplesGame.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/include/MultiplesCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ioscourse_exercise3"
+      ],
+      "outputFileMapPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/MultiplesGame.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules/MultiplesCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/external/projects/IOSCourse-Exercise3/Sources/MultiplesCore/MultiplesGame.swift"
+      ],
+      "tempsPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MultiplesCorePackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/sources",
+      "importPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules/MultiplesCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MultiplesCorePackageTests",
+      "moduleOutputPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules/MultiplesCorePackageTests.swiftmodule",
+      "objects" : [
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/include/MultiplesCorePackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ioscourse_exercise3"
+      ],
+      "outputFileMapPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules/MultiplesCorePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MultiplesCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/sources",
+      "importPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/Tests/MultiplesCoreTests/MultiplesGameTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules/MultiplesCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MultiplesCoreTests",
+      "moduleOutputPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules/MultiplesCoreTests.swiftmodule",
+      "objects" : [
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/MultiplesGameTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ioscourse_exercise3"
+      ],
+      "outputFileMapPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/MultiplesGameTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules/MultiplesCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/external/projects/IOSCourse-Exercise3/Tests/MultiplesCoreTests/MultiplesGameTests.swift"
+      ],
+      "tempsPath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MultiplesCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MultiplesCore",
+      "-package-name",
+      "ioscourse_exercise3",
+      "-c",
+      "/Volumes/external/projects/IOSCourse-Exercise3/Sources/MultiplesCore/MultiplesGame.swift",
+      "-I",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/include/MultiplesCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ioscourse_exercise3",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MultiplesCorePackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MultiplesCorePackageTests",
+      "-package-name",
+      "ioscourse_exercise3",
+      "-c",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.derived/runner.swift",
+      "-I",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/include/MultiplesCorePackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ioscourse_exercise3",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MultiplesCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MultiplesCoreTests",
+      "-package-name",
+      "ioscourse_exercise3",
+      "-c",
+      "/Volumes/external/projects/IOSCourse-Exercise3/Tests/MultiplesCoreTests/MultiplesGameTests.swift",
+      "-I",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ioscourse_exercise3",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MultiplesCore" : [
+
+    ],
+    "MultiplesCorePackageTests" : [
+      "MultiplesCoreTests",
+      "MultiplesCore"
+    ],
+    "MultiplesCoreTests" : [
+      "MultiplesCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/Sources/MultiplesCore/MultiplesGame.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/sources"
+    },
+    "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/sources"
+    },
+    "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCore.build/MultiplesGame.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/MultiplesGameTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCorePackageTests.product/Objects.LinkFileList"
+    },
+    "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external/projects/IOSCourse-Exercise3/Tests/MultiplesCoreTests/MultiplesGameTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/MultiplesCoreTests.build/sources"
+    },
+    "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Volumes/external/projects/IOSCourse-Exercise3/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

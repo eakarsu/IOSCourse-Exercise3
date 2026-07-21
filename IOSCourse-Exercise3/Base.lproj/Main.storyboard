@@ -46,7 +46,7 @@
                                 </constraints>
                                 <state key="normal" image="add"/>
                                 <connections>
-                                    <action selector="onClickAddButton:" destination="BYZ-38-t0r" eventType="touchDown" id="LMy-hx-O9k"/>
+                                    <action selector="onClickAddButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMy-hx-O9k"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOc-LJ-Aec" userLabel="playButton">
@@ -57,7 +57,7 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="play"/>
                                 <connections>
-                                    <action selector="onClickPlayButton:" destination="BYZ-38-t0r" eventType="touchDown" id="F3c-8W-DvP"/>
+                                    <action selector="onClickPlayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F3c-8W-DvP"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What multiply to add by!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bQ7-l9-CwY">
@@ -67,7 +67,7 @@
                                     <constraint firstAttribute="height" constant="30" id="x8c-QO-eZS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

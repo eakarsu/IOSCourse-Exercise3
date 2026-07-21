@@ -1,0 +1,14 @@
+name: ios-multiples-ci
+on: [push, pull_request]
+permissions: { contents: read }
+jobs:
+  verify:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift test
+      - run: plutil -lint IOSCourse-Exercise3/Info.plist IOSCourse-Exercise3/PrivacyInfo.xcprivacy IOSCourse-Exercise3.xcodeproj/project.pbxproj
+      - run: xmllint --noout IOSCourse-Exercise3.xcodeproj/xcshareddata/xcschemes/IOSCourse-Exercise3.xcscheme
+      - run: ibtool --errors --warnings --notices --minimum-deployment-target 15.0 IOSCourse-Exercise3/Base.lproj/Main.storyboard
+      - run: xcodebuild -project IOSCourse-Exercise3.xcodeproj -scheme IOSCourse-Exercise3 -destination 'platform=iOS Simulator,name=iPhone 16 Pro' -configuration Debug CODE_SIGNING_ALLOWED=NO test
+      - run: xcodebuild -project IOSCourse-Exercise3.xcodeproj -scheme IOSCourse-Exercise3 -sdk iphonesimulator -configuration Release CODE_SIGNING_ALLOWED=NO analyze
